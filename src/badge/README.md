@@ -55,7 +55,7 @@ isComponent: true
 </t-cell>
 ```
 
-### 标签栏徽标
+### 导航栏徽标
 
 <img src="https://tdesign.gtimg.com/miniprogram/readme/badge-3.png" width="375px" height="50%">
 
