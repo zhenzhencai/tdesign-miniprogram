@@ -48,7 +48,7 @@ isComponent: true
 
 | 名称   | 参数              | 描述             |
 | ------ | ----------------- | ---------------- |
-| change | `(value: number)` | 评分改变时触发 |
+| change | `(value: number)` | 评分数改变时触发 |
 
 ### rate 外部样式类
 
