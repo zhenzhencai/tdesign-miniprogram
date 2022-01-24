@@ -1,7 +1,7 @@
 /*
  * @Author: rileycai
  * @Date: 2021-09-21 19:01:54
- * @LastEditTime: 2021-11-10 14:30:02
+ * @LastEditTime: 2022-01-24 14:42:59
  * @LastEditors: rileycai
  * @Description: Rate组件
  * @FilePath: /tdesign-miniprogram/src/rate/rate.ts
@@ -45,12 +45,12 @@ export default class Rate extends SuperComponent {
     selQuery
       .select(`.${name}__wrapper`)
       .boundingClientRect((rect: any) => {
-        const { width, left } = rect;
-        const starWidth = (width - (count - 1) * margin) / count;
-        const offsetX = touch.pageX - left;
-        const num = (offsetX + margin) / (starWidth + margin);
-        const remainder = num % 1;
-        const integral = num - remainder;
+        // const { width, left } = rect;
+        // const starWidth = (width - (count - 1) * margin) / count;
+        // const offsetX = touch.pageX - left;
+        // const num = (offsetX + margin) / (starWidth + margin);
+        // const remainder = num % 1;
+        // const integral = num - remainder;
         let value = remainder <= 0.5 && allowHalf ? integral + 0.5 : integral + 1;
         if (value > count) {
           value = count;
