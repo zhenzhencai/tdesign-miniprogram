@@ -11,4 +11,5 @@ Page({
       [`value[${index}]`]: value,
     });
   },
+  // todo 1
 });
